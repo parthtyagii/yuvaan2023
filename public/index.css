@@ -17,17 +17,13 @@ body{
     width:400px;
     margin:100px auto 0px auto;
     font-family: 'Compote', sans-serif;
-                                                
-
 }
 
 h2{
     text-align: center;
-    padding: 20px;
-    /* font-family:sans-serif; */
-   
-   
+    padding: 20px; 
 }
+
 .register{
     background-color: rgba(0,0,0,.3);
     width:100%;
