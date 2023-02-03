@@ -178,19 +178,8 @@ app.post('/check', async (req, res) => {
     }
 })
 
-app.get('/verified', async (req, res) => {
-    const data = {
-        userId: '318650',
-        fname: 'PARTH',
-        lname: 'TYAGI',
-        email: 'parthtyagicode@gmail.com',
-        phone: 234982479,
-    }
-    res.render('verified', { data });
-})
 
-
-
-app.listen(3000, () => {
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
     console.log('Server 3000 running!');
 })
